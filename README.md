@@ -5,15 +5,15 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
-  helm repo add webserver https://ubikk.github.io/helm-charts
+  helm repo add ubikk https://ubikk.github.io/helm-charts
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
-webserver` to see the charts.
+ubikk` to see the charts.
 
 To install the webserver chart:
 
-    helm install my-webserver webserver/webserver
+    helm install my-webserver ubikk/training
 
 To uninstall the chart:
 
