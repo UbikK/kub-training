@@ -3,6 +3,16 @@ entries:
   training:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-10-11T09:12:03.754884248Z"
+    description: A Helm chart for Kubernetes
+    digest: 4bbc1f9a7240dd97bfeed0361f4c87e4d55a06da1266c4c2604aabcf5a8219c8
+    name: training
+    type: application
+    urls:
+    - https://github.com/UbikK/kub-training/releases/download/training-0.3.0/training-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-10-11T09:02:12.364108173Z"
     description: A Helm chart for Kubernetes
     digest: 8d974d0a51b7a519f79839ce4dbddbed9f1af76ca3d125928037663f7cae574b
